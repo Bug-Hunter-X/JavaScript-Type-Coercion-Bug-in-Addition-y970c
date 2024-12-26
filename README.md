@@ -1,0 +1,3 @@
+# JavaScript Type Coercion Bug
+
+This repository demonstrates a common error in JavaScript related to type coercion during the addition operation.  When adding values, JavaScript will implicitly convert values to strings if one operand is a string leading to unexpected string concatenation rather than numeric addition.  The `bug.js` file shows the erroneous code, and `bugSolution.js` presents a solution.
